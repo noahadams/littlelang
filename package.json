@@ -1,0 +1,16 @@
+{
+  "name": "littlelang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc *.ts",
+    "test": "npm run build && node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.1.2",
+    "typescript": "^3.7.4"
+  }
+}
